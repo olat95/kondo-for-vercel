@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%vw;
+  height: 100%vh;
+  font-family: "Rubik", sans-serif;
+  padding-top: -3rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 50px;
+  background: #ffffff;
+  box-shadow: 0px 0px 13px -2px rgba(34, 32, 33, 0.14);
+}
+
+.topnav {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-list {
+  padding-top: 18px;
+}
+
+.logo1 {
+  margin-top: 20px;
+  margin-left: -20px;
+  width: 80px;
+  height: 25px;
+}
+
+.topnav li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #231f20;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: -20px;
+}
+
+.searchhouse {
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.searchhouse #styleicon {
+  margin-left: 55px;
+  position: absolute;
+  left: 7px;
+  top: 130px;
+}
+
+.searchhouse .search {
+  width: 300px;
+  height: 46px;
+  background: #ffffff;
+  border: 3px solid #231f20;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-right: 37px;
+  margin-top: 35px;
+  margin-left: 37px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.searchhouse .butts button {
+  margin-right: 24px;
+  margin-top: 35px;
+  text-align: center;
+  width: 100px;
+  height: 46px;
+  background: #ffffff;
+  border: 3px solid #231f20;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.searchr {
+  border: 1px solid #e2e2e2;
+  width: 97%;
+  margin: 0 auto;
+}
+
+.choosehouse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 69px;
+  padding: 30px;
+}
+
+.choosehouse div .househr {
+  border: 1px solid #e2e2e2;
+  width: 95%;
+}
+
+.choosehouse div .paginate {
+  width: 450px;
+  margin-top: 70px;
+  margin-left: 263px;
+  margin-bottom: 40px;
+}
+
+.choosehouse div .paginate .big-paginate {
+  border: 3px solid black;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 50%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.choosehouse div .paginate .big-paginate:hover {
+  border: 2px solid #c4c4c4;
+  background-color: #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 40px;
+  border: 1px solid #c4c4c4;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.choosehouse div .paginate .small-paginate {
+  text-decoration: none;
+  margin: 10px;
+  padding: 12px 19px;
+  border-radius: 50%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.choosehouse div .paginate .small-paginate:hover {
+  background-color: #000;
+  color: white;
+  transition: 200ms ease;
+}
+
+.choosehouse div .paginate-para {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 122.5%;
+  color: #231f20;
+  margin-left: 300px;
+  margin-bottom: 200px;
+}
+
+.choosehouse div .house {
+  display: flex;
+  width: 100%;
+}
+
+.choosehouse div .house .houseimg {
+  margin-bottom: 18px;
+}
+
+.choosehouse div .house .houseimg .firstimg {
+  width: 300px;
+  height: 209px;
+  border-radius: 9px;
+}
+
+.choosehouse div .house div .icondiv {
+  display: flex;
+  width: 45vmin;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.choosehouse div .house div .icondiv .peetag {
+  width: 400px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vmax;
+  line-height: 122.5%;
+  color: #231f20;
+}
+
+.choosehouse div .house div hr {
+  width: 50px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: 1px solid #e2e2e2;
+}
+
+.choosehouse div .house div .property-discription {
+  width: 350px;
+  height: 25px;
+  margin-left: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4vmin;
+  line-height: 122.5%;
+  color: #979797;
+}
+
+.choosehouse div .house div h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  margin-left: 20px;
+  margin-top: 55px;
+}
+
+.choosehouse div .mapimg .map_area {
+  border-radius: 6px;
+  width: 100%;
+}
+
+.choosehouse div button {
+  display: flex;
+  flex-direction: column;
+  width: 42px;
+  height: 65px;
+  position: relative;
+  top: -1120px;
+  left: 750px;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.06);
+  border-color: #ffffff;
+  border-radius: 2px;
+}
+
+footer {
+  height: 480px;
+  background: #f7f8fa;
+}
+
+footer .base-style {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  padding: 40px;
+}
+
+.big-footer-para {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 122.5%;
+  padding-top: 16px;
+  padding-right: 71px;
+  color: #231f20;
+}
+
+.bigger-footer-para {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 122.5%;
+  padding-right: 72px;
+  color: #231f20;
+}
+
+.footer-para {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 122.5%;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #231f20;
+}
+
+.copyright-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-footer .icon-footer {
+  padding-top: 20px;
+  padding-right: 35px;
+}
+
+.copyright-footer .icon-footer .icorn {
+  padding-left: 29px;
+}
+
+.footerhr {
+  width: 95.5%;
+  margin: 0 auto;
+  border: 1px solid #e2e2e2;
+}
